@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>漫画紹介</title>
+    <link rel="stylesheet" href="css/kadai c.css">
+</head>
+<body>
+    <header>
+    <h1>好きな漫画紹介</h1>     
+        <div>
+            <ul>
+                <li><a href="">作品紹介</a></li>
+                <li><a href="">主要キャラクター</a></li>
+                <li><a href="">アンケート</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="image">
+        <img src="images/dragonball.jpg" alt="ドラゴンボールの画像">
+    </section>
+
+    <section id="about">
+        <div class="box">
+            <h2>作品紹介</h2>
+            <p>
+                ドラゴンボールは鳥山明先生による人気漫画です。
+                主人公の孫悟空が仲間たちと共に冒険し、
+                強敵との戦いを繰り広げる物語です。
+            </p>
+
+            <p>
+                詳しくは
+                <a href="https://ja.wikipedia.org/wiki/ドラゴンボール">
+                    Wikipedia
+                </a>
+                をご覧ください。
+            </p>
+        </div>
+    </section>
+
+    <section id="characters">
+        <h2>主要キャラクター</h2>
+
+        <table>
+            <tr>
+                <th>名前</th>
+                <th>特徴</th>
+                <th>戦闘力</th>
+            </tr>
+            <tr>
+                <td>孫悟空</td>
+                <td>主人公</td>
+                <td>非常に高い</td>
+            </tr>
+            <tr>
+                <td>ベジータ</td>
+                <td>サイヤ人の王子</td>
+                <td>高い</td>
+            </tr>
+            <tr>
+                <td>ピッコロ</td>
+                <td>ナメック星人</td>
+                <td>高い</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="form">
+        <h2>アンケート</h2>
+
+        <form>
+            <label for="name">名前</label>
+            <input type="text" id="name" required>
+
+            <label for="favorite">
+                好きなキャラクター
+            </label>
+            <input type="text" id="favorite">
+
+            <label for="comment">コメント</label>
+            <textarea id="comment"></textarea>
+
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 好きな漫画紹介サイト</p>
+    </footer>
+
+</body>
+</html>
+</body>
+</html>
